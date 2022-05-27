@@ -42,7 +42,7 @@ namespace odev_2_3
             //        return true;
             //    }
             //}
-            //Kelime k = new Kelime(value, 1);
+            //Kelime kelime = new Kelime(value, 1);
 
             heapArray[currentSize] = newHeapDugumu;
             MoveToUp(currentSize++);
