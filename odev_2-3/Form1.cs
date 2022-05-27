@@ -79,7 +79,6 @@ namespace odev_2_3
                 }
             }
             metin.KelimeSayisi = Kelimeler.Length;
-            MessageBox.Show(Kelimeler.Length.ToString());
 
             metin.OrtKelimeSayisi = Kelimeler.Length / Cumleler.Length;
 
@@ -92,7 +91,6 @@ namespace odev_2_3
 
         private void btnAgacaAktar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(Kelimeler.Length.ToString());
             Heap heap = new Heap(Kelimeler.Length);
             for (int i = 0; i < Kelimeler.Length; i++)
             {
